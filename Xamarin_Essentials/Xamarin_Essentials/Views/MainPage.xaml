@@ -14,9 +14,9 @@
             </x:Arguments>
         </NavigationPage>
 
-        <NavigationPage Title="About">
+        <NavigationPage Title="FlashLight">
             <x:Arguments>
-                <views:AboutPage />
+                <views:FlashLightPage />
             </x:Arguments>
         </NavigationPage>
     </TabbedPage.Children>
