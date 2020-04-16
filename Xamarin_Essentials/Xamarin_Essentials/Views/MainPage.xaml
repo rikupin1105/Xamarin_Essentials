@@ -8,12 +8,6 @@
             x:Class="Xamarin_Essentials.Views.MainPage">
 
     <TabbedPage.Children>
-        <NavigationPage Title="Browse">
-            <x:Arguments>
-                <views:ItemsPage />
-            </x:Arguments>
-        </NavigationPage>
-
         <NavigationPage Title="FlashLight">
             <x:Arguments>
                 <views:FlashLightPage />
