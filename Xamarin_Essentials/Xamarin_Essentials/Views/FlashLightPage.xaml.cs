@@ -30,7 +30,7 @@ namespace Xamarin_Essentials.Views
             }
         }
 
-        private async void Button_Off_Clicked(ssobject sender, EventArgs e)
+        private async void Button_Off_Clicked(object sender, EventArgs e)
         {
             try
             {
