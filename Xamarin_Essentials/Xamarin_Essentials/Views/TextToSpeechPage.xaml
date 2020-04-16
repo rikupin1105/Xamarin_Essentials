@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Xamarin_Essentials.Views.TextToSpeechPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="EntryText" Placeholder="Enter text"/>
+            <Button Text="Speak" Clicked="Button_Clicked"/>
+            <Slider MaximumTrackColor="DarkGray"
+                    MinimumTrackColor="DarkGray"
+                    ThumbColor="Black"
+                Minimum="0" Maximum="1" Value="1" x:Name="SliderVolume"></Slider>
+            <Slider MaximumTrackColor="DarkGray"
+                    MinimumTrackColor="DarkGray"
+                    ThumbColor="Black"
+                    Minimum="0" Maximum="2" Value="1" x:Name="SliderPitch"></Slider>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

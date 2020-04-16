@@ -19,6 +19,12 @@
                 <views:FlashLightPage />
             </x:Arguments>
         </NavigationPage>
+
+        <NavigationPage Title="TextToSpeech">
+            <x:Arguments>
+                <views:TextToSpeechPage />
+            </x:Arguments>
+        </NavigationPage>
     </TabbedPage.Children>
     
 </TabbedPage>
