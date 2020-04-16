@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Xamarin_Essentials.Views.TextToSpeechPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="20">
             <Entry x:Name="EntryText" Placeholder="Enter text"/>
             <Button Text="Speak" Clicked="Button_Clicked"/>
             <Slider MaximumTrackColor="DarkGray"
