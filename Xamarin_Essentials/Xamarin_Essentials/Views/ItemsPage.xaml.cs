@@ -6,8 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
-using Xamarin_Essentials.Models;
 using Xamarin_Essentials.Views;
 using Xamarin_Essentials.ViewModels;
 
