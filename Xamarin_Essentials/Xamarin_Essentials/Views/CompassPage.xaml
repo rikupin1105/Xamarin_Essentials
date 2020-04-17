@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Xamarin_Essentials.ViewModels"
+             mc:Ignorable="d"
+             x:Class="Xamarin_Essentials.Views.CompassPage"
+             Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <local:CompassViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Image x:Name="compassImage" Rotation="{Binding RotationHeading}" HeightRequest="100"/>
+            <Label x:Name="labelHeading" Text="{Binding HeadingDisplay}" HorizontalOptions="Center" TextColor="Black"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

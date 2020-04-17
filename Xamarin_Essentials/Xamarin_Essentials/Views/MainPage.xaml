@@ -25,6 +25,12 @@
                 <views:LocationPage />
             </x:Arguments>
         </NavigationPage>
+
+        <NavigationPage Title="Compass">
+            <x:Arguments>
+                <views:CompassPage />
+            </x:Arguments>
+        </NavigationPage>
     </TabbedPage.Children>
     
 </TabbedPage>
