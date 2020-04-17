@@ -31,6 +31,12 @@
                 <views:CompassPage />
             </x:Arguments>
         </NavigationPage>
+
+        <NavigationPage Title="Vibration">
+            <x:Arguments>
+                <views:VibrationPage />
+            </x:Arguments>
+        </NavigationPage>
     </TabbedPage.Children>
     
 </TabbedPage>
