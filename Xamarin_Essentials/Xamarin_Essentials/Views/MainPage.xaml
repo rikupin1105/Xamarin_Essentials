@@ -19,6 +19,12 @@
                 <views:TextToSpeechPage />
             </x:Arguments>
         </NavigationPage>
+        
+        <NavigationPage Title="GPS">
+            <x:Arguments>
+                <views:LocationPage />
+            </x:Arguments>
+        </NavigationPage>
     </TabbedPage.Children>
     
 </TabbedPage>
