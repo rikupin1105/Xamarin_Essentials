@@ -13,7 +13,7 @@
     
     <ContentPage.Content>
         <StackLayout Padding="20">
-            <Image x:Name="compassImage" Rotation="{Binding RotationHeading}" HeightRequest="100"/>
+            <Image x:Name="compassImage" Rotation="{Binding RotationHeading}" HeightRequest="500"/>
             <Label x:Name="labelHeading" Text="{Binding HeadingDisplay}" HorizontalOptions="Center" TextColor="Black"/>
         </StackLayout>
     </ContentPage.Content>
